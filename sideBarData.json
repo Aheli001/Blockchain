@@ -53,17 +53,6 @@
         { "title": "ReactJS - Strict Mode", "page": "strictMode" },
         { "title": "ReactJS - Web Components", "page": "webComponents" }
       ]
-    },
-    {
-      "title": "ReactJS - Useful Resource",
-      "icon": "fa-solid fa-link",
-      "subItems": [
-        { "title": "ReactJS - Quick Guide", "page": "quickGuide" },
-        { "title": "ReactJS - Cheatsheet", "page": "cheatsheet" },
-        { "title": "ReactJS - Axios Cheatsheet", "page": "axiosCheatsheet" },
-        { "title": "ReactJS - Useful Resource", "page": "usefulResource" },
-        { "title": "ReactJS - Discussion", "page": "discussion" }
-      ]
     }
   ]
   
