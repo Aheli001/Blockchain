@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Extensive ReactJS Roadmap Documentation</title>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <style>
+      /* Reset & global styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        height: 100vh; /* Ensure body covers full viewport height */
+        background: #f0f2f5;
+        color: #000;
+      }
+      .primary {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      /* Sidebar styling with independent scroll */
+      .sidebar {
+        width: 320px;
+        height: 100vh; /* full viewport height */
+        background: #f4f4f4;
+        color: #000;
+        padding: 20px;
+        overflow-y: scroll;
+      }
+      .sidebar::-webkit-scrollbar {
+        width: 8px;
+      }
+      .sidebar::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+      }
+      .sidebar::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.4);
+        border-radius: 4px;
+      }
+      .sidebar h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 1.8em;
+      }
+      .sidebar ul {
+        list-style: none;
+        padding: 0;
+        padding-left: 10px;
+      }
+      .sidebar li {
+        margin: 5px 0;
+      }
+      .sidebar li a {
+        display: block;
+        padding: 8px 12px;
+        text-decoration: none;
+        color: #000;
+        border-radius: 4px;
+        transition: background 0.3s ease;
+        font-size: 0.95em;
+      }
+      .sidebar li a:hover {
+        background: rgba(255, 255, 255, 0.2);
+      }
+      .sidebar ul ul {
+        margin-left: 10px;
+        padding: 0;
+      }
+      /* Content area styling with independent scroll */
+      .content {
+        align-items: center;
+        flex: 1;
+        height: 100vh; /* full viewport height */
+        padding: 20px 40px;
+        background: #fff;
+        overflow-y: scroll;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        text-align: justify;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .content h1 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+      .content p,
+      .content ul,
+      .content ol {
+        margin-bottom: 15px;
+        color: #000;
+        line-height: 1.8;
+      }
+      pre {
+        margin: auto;
+        overflow-x: auto;
+        font-size: 0.9em;
+      }
+      code {
+        font-family: Consolas, "Courier New", monospace;
+      }
+      .previous {
+        background: #eeeeee;
+        color: #333;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .next {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .heading {
+        text-align: center;
+        border-bottom: 1px solid #b8b5b5;
+      }
+      .contentHeading {
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 27px;
+        color: rgb(0, 0, 0);
+      }
+      .contentText {
+        font-family: "Verdana", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+      }
+      .subHeading {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 15px;
+      }
+      ul {
+        list-style: square;
+        padding: 0 40px;
+      }
+      .code-container {
+        position: relative;
+        background-color: #f4f4f4;
+        padding: 1em;
+        border-radius: 8px;
+        font-family: Consolas, monospace;
+        margin-bottom: 20px;
+      }
+
+      .copy-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 5px 10px;
+        font-size: 12px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+      }
+
+      .copy-button:hover {
+        background-color: #0056b3;
+      }
+      .keyword {
+        color: #d73a49;
+        font-weight: bold;
+      }
+
+      .function-name {
+        color: #005cc5;
+        font-weight: bold;
+      }
+
+      .string {
+        color: #ce9178;
+      }
+
+      .tag {
+        color: #d73a49;
+      }
+
+      .attribute {
+        color: #6f42c1;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      #sidebarMenu a {
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        padding: 8px;
+        transition: all 0.3s ease;
+      }
+
+      #sidebarMenu a:hover {
+        background-color: #fff;
+        color: #000;
+      }
+
+      #sidebarMenu a.active {
+        background: #ccc;
+        color: #000 !important;
+        font-weight: bold;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      #sidebarMenu a.active:hover {
+        background: #adabab;
+      }
+
+      #sidebarMenu ul ul a.active {
+        background: linear-gradient(135deg, #2575fc, #6a11cb);
+        border-left: 3px solid #fff;
+      }
+
+      /* New styles for section headers (items without pages) */
+      #sidebarMenu a.section-header {
+        background-color: #202124;
+        font-weight: bold;
+        color: #fff;
+        border-left: 3px solid rgba(255, 255, 255, 0.7);
+        margin-top: 10px;
+        margin-bottom: 5px;
+        cursor: default;
+      }
+
+      #sidebarMenu a.section-header i.toggle-icon {
+        float: right;
+        transition: transform 0.3s ease;
+      }
+
+      #sidebarMenu a.section-header.collapsed i.toggle-icon {
+        transform: rotate(-90deg);
+      }
+
+      #sidebarMenu ul.collapsed {
+        display: none;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        body {
+          flex-direction: column;
+        }
+        .sidebar {
+          width: 100%;
+          height: 40vh;
+        }
+        .content {
+          height: 60vh;
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Left Navigation Sidebar -->
+    <div class="sidebar">
+      <h2>ReactJS Roadmap</h2>
+      <ul id="sidebarMenu"></ul>
+    </div>
+
+    <!-- Right Content Area -->
+    <div class="content">
+      <div id="content-container">
+        <!-- Content will be loaded here -->
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: flex-end;
+          margin-top: 1rem;
+          gap: 1rem;
+        "
+      >
+        <button class="previous" id="prev-button" onclick="goToPreviousPage()">
+          <i class="fa-solid fa-chevron-left"></i>Previous
+        </button>
+        <button class="next" id="next-button" onclick="goToNextPage()">
+          Next<i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Load scripts in correct order -->
+    <script src="https://kit.fontawesome.com/70d4baf1b4.js" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

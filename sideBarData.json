@@ -1,0 +1,69 @@
+[
+    { "title": "ReactJS - Home", "page": "home" },
+    { "title": "ReactJS - Introduction", "page": "introduction", "icon": "fa-solid fa-lightbulb" },
+    { "title": "ReactJS - Roadmap", "page": "roadmap" },
+    { "title": "ReactJS - Installation", "page": "installation" },
+    { "title": "ReactJS - Features", "page": "features" },
+    { "title": "ReactJS - Advantages & Disadvantages", "page": "advantages" },
+    { "title": "ReactJS - Architecture", "page": "architecture" },
+    { "title": "ReactJS - Creating a React Application", "page": "application" },
+    { "title": "ReactJS - JSX", "page": "jsx" },
+    { "title": "ReactJS - Components", "page": "components" },
+    { "title": "ReactJS - Nested Components", "page": "nestedComponents" },
+    { "title": "ReactJS - Using Newly Created Components", "page": "usingComponents" },
+    { "title": "ReactJS - Component Collection", "page": "componentCollection" },
+    { "title": "ReactJS - Styling", "page": "stylingComponents" },
+    { "title": "ReactJS - Properties (props)", "page": "props" },
+    {
+      "title": "ReactJS - Hooks",
+      "icon": "fa-solid fa-link",
+      "subItems": [
+        { "title": "ReactJS - Introduction to Hooks", "page": "introToHooks" },
+        { "title": "ReactJS - Using useState", "page": "useState" },
+        { "title": "ReactJS - Using useEffect", "page": "useEffect" },
+        { "title": "ReactJS - Using useContext", "page": "useContext" },
+        { "title": "ReactJS - useRef", "page": "useRef" },
+        { "title": "ReactJS - Using useReducer", "page": "useReducer" },
+        { "title": "ReactJS - Using useCallback", "page": "useCallback" },
+        { "title": "ReactJS: Using useMemo", "page": "useMemo" },
+        { "title": "ReactJS - Custom Hooks", "page": "customHooks" }
+      ]
+    },
+    {
+      "title": "ReactJS - Advanced",
+      "icon": "fa-solid fa-link",
+      "subItems": [
+        { "title": "ReactJS - Accessibility", "page": "accessibility" },
+        { "title": "ReactJS - Code-Splitting", "page": "codeSplitting" },
+        { "title": "ReactJS - Context", "page": "context" },
+        { "title": "ReactJS - Error Boundaries", "page": "errorBoundaries" },
+        { "title": "ReactJS - Forwarding Refs", "page": "forwardingRefs" },
+        { "title": "ReactJS - Fragments", "page": "fragments" },
+        { "title": "ReactJS - Higher-Order Components", "page": "higherOrderComponents" },
+        { "title": "ReactJS - Integrating Other Libraries", "page": "integratingOtherLib" },
+        { "title": "ReactJS - Optimizing Performance", "page": "optimizingPerformance" },
+        { "title": "ReactJS - Portals", "page": "portals" },
+        { "title": "ReactJS - Profiler API", "page": "profilerApi" },
+        { "title": "ReactJS - React without ECMAScript", "page": "reactWithoutEchma" },
+        { "title": "ReactJS - React without JSX", "page": "reactWithoutJsx" },
+        { "title": "ReactJS - Reconcillation", "page": "reconcillation" },
+        { "title": "ReactJS - Refs and DOM", "page": "refsAndDom" },
+        { "title": "ReactJS - Render Props", "page": "renderProps" },
+        { "title": "ReactJS - Static Type Check", "page": "staticTypeCheck" },
+        { "title": "ReactJS - Strict Mode", "page": "strictMode" },
+        { "title": "ReactJS - Web Components", "page": "webComponents" }
+      ]
+    },
+    {
+      "title": "ReactJS - Useful Resource",
+      "icon": "fa-solid fa-link",
+      "subItems": [
+        { "title": "ReactJS - Quick Guide", "page": "quickGuide" },
+        { "title": "ReactJS - Cheatsheet", "page": "cheatsheet" },
+        { "title": "ReactJS - Axios Cheatsheet", "page": "axiosCheatsheet" },
+        { "title": "ReactJS - Useful Resource", "page": "usefulResource" },
+        { "title": "ReactJS - Discussion", "page": "discussion" }
+      ]
+    }
+  ]
+  
