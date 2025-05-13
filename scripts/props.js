@@ -200,7 +200,7 @@ docs.props = `
     <th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Props</th>
   </tr>
   <tr>
-    <td style="padding: 8px; border-bottom: 1px solid #ddd;">Definition</td>
+    <td style="padding: 8px; border-bottom: 1px solid #ddd;">home</td>
     <td style="padding: 8px; border-bottom: 1px solid #ddd;">Internal data managed by the component</td>
     <td style="padding: 8px; border-bottom: 1px solid #ddd;">External data passed to the component</td>
   </tr>

@@ -183,7 +183,7 @@ window.onload = function() {
 };
 
 const scripts = [
-  'home.js', 'introduction.js', 'roadmap.js', 'installation.js', 'features.js',
+  'home.js', 'coreConcepts.js', 'properties.js', 'realWorldUseCase.js', 'keyTypes.js',
   'advantages.js', 'architecture.js', 'application.js', 'jsx.js', 'components.js',
   'nestedComponents.js', 'usingComponents.js', 'componentCollection.js', 'props.js',
   'stylingComponents.js',
