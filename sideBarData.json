@@ -1,58 +1,53 @@
 [
-    { "title": "Blockchain - Home", "page": "home" },
-    { "title": "Blockchain - Core Concepts", "page": "coreConcepts" },
-    { "title": "Blockchain - Properties Derived from These Core Concepts", "page": "properties" },
-    { "title": "Blockchain - Real World Use Cases", "page": "realWorldUseCase" },
-    { "title": "Blockchain - Key Blockchain Types", "page": "keyTypes" },
-    { "title": "Blockchain - Advantages & Disadvantages", "page": "advantages" },
-    { "title": "Blockchain - Architecture", "page": "architecture" },
-    { "title": "Blockchain - Creating a React Application", "page": "application" },
-    { "title": "Blockchain - JSX", "page": "jsx" },
-    { "title": "Blockchain - Components", "page": "components" },
-    { "title": "Blockchain - Nested Components", "page": "nestedComponents" },
-    { "title": "Blockchain - Using Newly Created Components", "page": "usingComponents" },
-    { "title": "Blockchain - Component Collection", "page": "componentCollection" },
-    { "title": "Blockchain - Styling", "page": "stylingComponents" },
-    { "title": "Blockchain - Properties (props)", "page": "props" },
-    {
-      "title": "Blockchain - Hooks",
-      "icon": "fa-solid fa-link",
-      "subItems": [
-        { "title": "Blockchain - Introduction to Hooks", "page": "introToHooks" },
-        { "title": "Blockchain - Using useState", "page": "useState" },
-        { "title": "Blockchain - Using useEffect", "page": "useEffect" },
-        { "title": "Blockchain - Using useContext", "page": "useContext" },
-        { "title": "Blockchain - useRef", "page": "useRef" },
-        { "title": "Blockchain - Using useReducer", "page": "useReducer" },
-        { "title": "Blockchain - Using useCallback", "page": "useCallback" },
-        { "title": "Blockchain: Using useMemo", "page": "useMemo" },
-        { "title": "Blockchain - Custom Hooks", "page": "customHooks" }
-      ]
-    },
-    {
-      "title": "Blockchain - Advanced",
-      "icon": "fa-solid fa-link",
-      "subItems": [
-        { "title": "Blockchain - Accessibility", "page": "accessibility" },
-        { "title": "Blockchain - Code-Splitting", "page": "codeSplitting" },
-        { "title": "Blockchain - Context", "page": "context" },
-        { "title": "Blockchain - Error Boundaries", "page": "errorBoundaries" },
-        { "title": "Blockchain - Forwarding Refs", "page": "forwardingRefs" },
-        { "title": "Blockchain - Fragments", "page": "fragments" },
-        { "title": "Blockchain - Higher-Order Components", "page": "higherOrderComponents" },
-        { "title": "Blockchain - Integrating Other Libraries", "page": "integratingOtherLib" },
-        { "title": "Blockchain - Optimizing Performance", "page": "optimizingPerformance" },
-        { "title": "Blockchain - Portals", "page": "portals" },
-        { "title": "Blockchain - Profiler API", "page": "profilerApi" },
-        { "title": "Blockchain - React without ECMAScript", "page": "reactWithoutEchma" },
-        { "title": "Blockchain - React without JSX", "page": "reactWithoutJsx" },
-        { "title": "Blockchain - Reconcillation", "page": "reconcillation" },
-        { "title": "Blockchain - Refs and DOM", "page": "refsAndDom" },
-        { "title": "Blockchain - Render Props", "page": "renderProps" },
-        { "title": "Blockchain - Static Type Check", "page": "staticTypeCheck" },
-        { "title": "Blockchain - Strict Mode", "page": "strictMode" },
-        { "title": "Blockchain - Web Components", "page": "webComponents" }
-      ]
-    }
-  ]
-  
+  { "title": "Blockchain - Home", "page": "home" },
+  { "title": "Blockchain - Core Concepts", "page": "coreConcepts" },
+  {
+    "title": "Blockchain - Properties Derived from These Core Concepts",
+    "page": "properties"
+  },
+  { "title": "Blockchain - Real World Use Cases", "page": "realWorldUseCase" },
+  { "title": "Blockchain - Key Blockchain Types", "page": "keyTypes" },
+  { "title": "Blockchain - Layers", "page": "layers" },
+  { "title": "Blockchain - Solana vs. Ethereum", "page": "solVsEth" },
+  { "title": "Blockchain - Installation", "page": "installation" },
+  { "title": "Blockchain - Solana", "page": "solana" },
+  { "title": "Blockchain - Ethereum", "page": "ethereum" },
+  { "title": "Blockchain - Ethereum Overview", "page": "ethereumOverview" },
+  { "title": "Blockchain - Introduction to Web3.js", "page": "introToWebJs" },
+  {
+    "title": "Blockchain - Data Types, Functions, and Modifiers",
+    "page": "dataType"
+  },
+  {
+    "title": "Blockchain - Contract Structure and Inheritance",
+    "page": "contractStruct"
+  },
+  { "title": "Blockchain - Events and Error Handling", "page": "eventErr" },
+  {
+    "title": "Blockchain - ERC Standard",
+    "icon": "fa-solid fa-link",
+    "subItems": [
+      { "title": "Blockchain - ERC-20: Fungible Tokens", "page": "tokens" },
+      {
+        "title": "Blockchain - ERC-721: Non-Fungible Tokens (NFTs)",
+        "page": "nonFungToken"
+      },
+      {
+        "title": "Blockchain - ERC-1155: Multi-Token Standard",
+        "page": "multiToken"
+      },
+      {
+        "title": "Blockchain - Interacting with Smart Contracts Using Web3.js",
+        "page": "interact"
+      },
+      {
+        "title": "Blockchain - Write and Deploy an ERC-20 Token on Ethereum Using Remix and Web3.js",
+        "page": "deployToken"
+      },
+      {
+        "title": "Blockchain - Build a dApp to Interact with an ERC-20 Token Contract",
+        "page": "build"
+      }
+    ]
+  }
+]

@@ -184,12 +184,11 @@ window.onload = function() {
 
 const scripts = [
   'home.js', 'coreConcepts.js', 'properties.js', 'realWorldUseCase.js', 'keyTypes.js',
-  'advantages.js', 'architecture.js', 'application.js', 'jsx.js', 'components.js',
-  'nestedComponents.js', 'usingComponents.js', 'componentCollection.js', 'props.js',
-  'stylingComponents.js',
-  'hooks/introToHooks.js', 'hooks/useState.js', 'hooks/useEffect.js',
-  'hooks/useContext.js', 'hooks/useRef.js', 'hooks/useReducer.js',
-  'hooks/useCallback.js', 'hooks/useMemo.js', 'hooks/customHooks.js',
+  'layers.js', 'solVsEth.js', 'installation.js',
+  'solana.js', 'ethereum.js', 'ethereumOverview.js', 
+  'introToWebJs.js','dataType.js', 'eventErr.js', 'contractStruct.js',
+  'erc/tokens.js', 'erc/nonFungToken.js', 'erc/multiToken.js',
+  'erc/interact.js', 'erc/deployToken.js', 'erc/build.js',
   'advanced/accessibility.js', 'advanced/codeSplitting.js', 'advanced/context.js',
   'advanced/errorBoundaries.js', 'advanced/forwardingRefs.js', 'advanced/fragments.js',
   'advanced/higherOrderComponents.js', 'advanced/integratingOtherLib.js', 'advanced/optimizingPerform.js',

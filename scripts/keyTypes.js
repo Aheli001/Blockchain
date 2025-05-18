@@ -136,14 +136,156 @@ docs.keyTypes = `
           <strong>
             Private Blockchains
             </strong>
-            <ul style="list-style-type:circle;">
+            <ol>
                 <li>
-                Cryptographic algorithms (e.g., SHA-256 in Bitcoin) ensure data security.
+                <strong>Definition:</strong>
+                <ul style="list-style-type:circle;">
+                <li>
+                Private blockchains are permissioned networks where only authorized participants can access the system, view transactions, and validate data.
+                </li>
+                </ul>
                 </li>
                 <li>
-                Decentralized nodes and consensus make it difficult for attackers to alter the blockchain.
+                <strong>Key Features:</strong>
+                <ul style="list-style-type:circle;">
+                <li>
+                <strong>Centralized Control:</strong>
+                <ul>
+                <li>
+                Managed by a single organization or a group of entities.
                 </li>
-            </ul>
+                </ul>
+                <li>
+                <strong>Restricted Access:</strong>
+                <ul>
+                <li>
+                Only authorized nodes can participate.
+                </li>
+                </ul>
+                </li>
+                <li>
+                <strong>Higher Efficiency:</strong>
+                <ul>
+                <li>
+                Faster transaction speeds due to fewer participants and less complex consensus mechanisms.
+                </li>
+                </ul>
+                </li>
+                </ul>
+                </li>
+                <li>
+                <strong>Consensus Mechanisms:</strong>
+                <ul style="list-style-type:circle;">
+                <li>
+                <strong>Practical Byzantine Fault Tolerance (PBFT). </strong>
+                </li>
+                <li>
+                <strong>Proof of Authority (PoA): </strong>
+                Validators are pre-approved and known.
+                </li>
+                </ul>
+                </li>
+                <li>
+                <strong>Examples:</strong>
+                <ul style="list-style-type:circle;">
+                <li>
+                <strong>Hyperledger Fabric:</strong>
+                Enterprise-focused blockchain for supply chain, finance, and healthcare.
+                </li>
+                <li>
+                <strong>Corda:</strong>
+                Blockchain platform optimized for financial institutions.
+                </li>
+                </ul>
+                </li>
+                <li>
+                <strong>Use Cases:</strong>
+                <ul style="list-style-type:circle;">
+                <li>
+                Enterprise solutions.
+                </li>
+                <li>
+                Supply chain management.
+                </li>
+                <li>
+                Banking and financial systems.
+                </li>
+                </ul>
+                </li>
+                <li>
+                <strong>Advantages:</strong>
+                <ul style="list-style-type:circle;">
+                <li>
+                Faster and more scalable compared to public blockchains.
+                </li>
+                <li>
+                Greater privacy and control over data.
+                </li>
+                <li>
+                Tailored to specific business needs.
+                </li>
+                </ul>
+                </li>
+                <li>
+                <strong>Disadvantages:</strong>
+                <ul style="list-style-type:circle;">
+                <li>
+                Centralization reduces tlessness and transparency.
+                </li>
+                <li>
+                Restricted innovation due to limited participation.
+                </li>
+                <li>
+                Less secure compared to public blockchains.
+                </li>
+                </ul>
+                </li>
+            </ol>
           </li>
         </ol>
+
+<h1 class="contentHeading">Comparison: Public vs. Private Blockchains</h1>
+<table style="width:100%; border-collapse:collapse; margin-top:20px;">
+    <tr>
+      <th>Aspect</th>
+      <th>Public Blockchain</th>
+      <th>Private Blockchain</th>
+    </tr>
+    <tr>
+      <td>Accessibility</td>
+      <td>Open to anyone</td>
+      <td>Restricted to authorized participants</td>
+    </tr>
+    <tr>
+      <td>Decentralization</td>
+      <td>Fully decentralized</td>
+      <td>Semi-centralized</td>
+    </tr>
+    <tr>
+      <td>Transparency</td>
+      <td>Completely transparent</td>
+      <td>Partially transparent</td>
+    </tr>
+    <tr>
+      <td>Consensus</td>
+      <td>PoW, PoS, etc.</td>
+      <td>PoA, PBFT</td>
+    </tr>
+    <tr>
+      <td>Performance</td>
+      <td>Relatively slower</td>
+      <td>High performance</td>
+    </tr>
+    <tr>
+      <td>Security</td>
+      <td>Highly secure</td>
+      <td>Secure but less robust</td>
+    </tr>
+    <tr>
+      <td>Examples</td>
+      <td>Bitcoin, Ethereum</td>
+      <td>Hyperledger, Corda</td>
+    </tr>
+  </table>
+
 `;
