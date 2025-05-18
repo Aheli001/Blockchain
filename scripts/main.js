@@ -189,14 +189,12 @@ const scripts = [
   'introToWebJs.js','dataType.js', 'eventErr.js', 'contractStruct.js',
   'erc/tokens.js', 'erc/nonFungToken.js', 'erc/multiToken.js',
   'erc/interact.js', 'erc/deployToken.js', 'erc/build.js',
-  'advanced/accessibility.js', 'advanced/codeSplitting.js', 'advanced/context.js',
-  'advanced/errorBoundaries.js', 'advanced/forwardingRefs.js', 'advanced/fragments.js',
-  'advanced/higherOrderComponents.js', 'advanced/integratingOtherLib.js', 'advanced/optimizingPerform.js',
-  'advanced/portals.js', 'advanced/profilerApi.js', 'advanced/reactWithoutEchma.js',
-  'advanced/reactWithoutJsx.js', 'advanced/reconcillation.js', 'advanced/refsAndDom.js', 'advanced/renderProps.js',
-  'advanced/staticTypeCheck.js', 'advanced/strictMode.js', 'advanced/webComponents.js',
-  'usefulResource/axiosCheatsheet.js', 'usefulResource/cheatsheet.js', 'usefulResource/discussion.js',
-  'usefulResource/quickGuide.js', 'usefulResource/usefulResource.js'
+  'solOverview/solArchitecture.js', 'solOverview/simpleDapp.js',
+  'solOverview/introToSyntax.js', 'solOverview/framework.js', 'solOverview/clientIntegration.js', 'solOverview/deploySolProgram.js',
+  'frontendIntegration.js','backendServices.js','eventListing.js','buildDapp.js',
+  'advanceSol.js', 'optimization.js',  'defi.js', 'advanceEth.js', 'deploySPLTok.js',
+  'commonVul.js', 'auditSmartCont.js', 'secAccControl.js', 'deploySmartCon.js', 'monitorTool.js',
+  'integratingThirdParty.js'
 ];
 
 scripts.forEach(script => {

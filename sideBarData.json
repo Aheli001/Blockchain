@@ -49,5 +49,92 @@
         "page": "build"
       }
     ]
+  },
+  {
+    "title": "Blockchain - Solana Overview",
+    "icon": "fa-solid fa-link",
+    "subItems": [
+      { "title": "Blockchain - Solana Architecture", "page": "solArchitecture" },
+      {
+        "title": "Blockchain - Introduction to  Syntax and Memory Safety",
+        "page": "introToSyntax"
+      },
+      {
+        "title": "Blockchain - Anchor Framework for Solana Development",
+        "page": "framework"
+      },
+      {
+        "title": "Blockchain - Client Integration with Solana Web3.js",
+        "page": "clientIntegration"
+      },
+      {
+        "title": "Blockchain - Write and Deploy a Solana Program to Manage a Token Mint",
+        "page": "deploySolProgram"
+      },
+      {
+        "title": "Blockchain - Build a Simple dApp to Interact with a Solana Program",
+        "page": "simpleDapp"
+      }
+    ]
+  },
+  {
+    "title": "Blockchain - Frontend Integration",
+    "page": "frontendIntegration"
+  },
+  {
+    "title": "Blockchain - Backend Services",
+    "page": "backendServices"
+  },
+  {
+    "title": "Blockchain - Event Listening",
+    "page": "eventListing"
+  },
+  {
+    "title": "Blockchain - Building dApps",
+    "page": "buildDapp"
+  },
+  {
+    "title": "Blockchain - Advanced Solana Development: SPL Tokens",
+    "page": "advanceSol"
+  },
+  {
+    "title": "Blockchain - Program Optimization in Solana Development",
+    "page": "optimization"
+  },
+  {
+    "title": "Blockchain - DeFi on Solana",
+    "page": "defi"
+  },
+  {
+    "title": "Blockchain - Advanced Ethereum Development",
+    "page": "advanceEth"
+  },
+  {
+    "title": "Blockchain - Deploy an SPL Token and Integrate It with a Solana dApp",
+    "page": "deploySPLTok"
+  },
+  {
+    "title": "Blockchain - Common Vulnerabilities",
+    "page": "commonVul"
+  },
+  {
+    "title": "Blockchain - Auditing Smart Contracts for Ethereum and Solana",
+    "page": "auditSmartCont"
+  },
+  {
+    "title": "Blockchain - Implementing Secure Access Control in a Token Contract",
+    "page": "secAccControl"
+  },
+  {
+    "title": "Blockchain - Deploying Smart Contracts",
+    "page": "deploySmartCon"
+  },
+  {
+    "title": "Blockchain - Monitoring Tools: Using Etherscan and Solscan",
+    "page": "monitorTool"
+  },
+  {
+    "title": "Blockchain - Integrating Third-Party Services",
+    "page": "integratingThirdParty"
   }
 ]
